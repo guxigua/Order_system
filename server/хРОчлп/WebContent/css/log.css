@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+         *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        .header{
+            width:60%;
+            height:100px;
+            overflow:hidden;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        .header .left{
+            float:left;
+            width:30%;
+            height:100px;
+            border:1px solid silver;
+            border-right:none;
+        }
+        .header .left p{
+            width:100%;
+            height:100%;
+            line-height:100px;
+            text-align: center;
+        }
+        .header .center{
+            float:left;
+            width:40%;
+            height:100px;
+            border:1px solid silver;
+            border-right:none;
+        }
+        .header .center h1{
+           width:100%;
+            height:100%;
+            line-height:100px;
+            text-align: center;
+        }
+        .header .right{
+            float:left;
+            width:30%;
+            height:100px;
+            border:1px solid silver;
+            padding-top: 30px;
+            padding-left: 10px;
+        }
+        .header .right a{
+        display: block;
+        width: 80px;
+        height: 16px;
+        font-size: 14px;
+        text-decoration: none;
+        color: red;
+        }
+        .header .right a:hover{
+            color: blue;
+        }
+        .nav{
+            width: 60%;
+            border: 1px solid silver;
+            border-top: none;
+            margin: 0 auto;
+            display: flex;
+        }
+        .nav a{
+            display: inline-block;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+        }
+        .nav a:hover{
+            color: red;
+        }
+        .footer{
+            width: 60%;
+            height: 80px;
+            margin: 0 auto;
+            border: 1px solid silver;
+            border-top: none;
+            overflow: hidden;
+        }
+        .body{
+            width: 60%;
+            height: 300px;
+            border: 1px solid silver;
+            border-top: none;
+            margin: 0 auto;
+        }
+        .body .top{
+            width: 100%;
+            height: 25%;
+            border-bottom: 1px solid silver;
+            text-align: center;
+        }
+         .body .top span{
+        display: inline-block;
+        width: 15%;
+        height: 100%;
+        line-height: 75px;
+        }
+         .body  .top .one1{
+         font-size: 20px;}
+        .body  .top .three3{
+        color:red;
+        }
+        .body .center{
+            width: 100%;
+            height: 50%;
+            border-bottom: 1px solid silver;
+        }
+        .body .bottom{
+            width: 100%;
+            height: 20%;
+            background-color: pink;
+        }
+        .body .bottom span{
+        display: inline-block;
+        width:100%;
+        height:100%;
+        line-height: 60px;
+        text-align: center;
+        margin-left: 400px;
+        }
+        .body .bottom span a{
+        text-decoration:none;
+        color:red;
+        }
+        .body .bottom span a:hover{
+        color:white;
+        }
+        .footer{
+            padding-top: 8px;
+            height:40px;
+        }
+        .footer p{
+          width: 70%;
+          text-align: center;
+          height: 16px;
+          line-height: 16px;
+          font-size: 14px;
+          margin: 0 auto;
+        }
+        form{
+             height: 90%;
+             width: 40%;
+             border:1px solid pink;
+             margin: 0 auto;
+             margin-top: 15px;
+        }
+        h2{
+            text-align: center;
+            height: 40%;
+            line-height: 60px;
+            border-bottom: 1px solid pink;
+        }
+       form p{
+            width: 100%;
+            height: 20%;
+            border-bottom: 1px solid pink;
+        }
+        form p span{
+            display: inline-block;
+            width: 40%;
+            height: 100%;
+            text-align: right;
+            line-height: 30px;
+            border-right: 1px solid pink;
+        }
+        .name input{
+            width: 110px;
+            height: 80%;
+        }
+        .pass input{
+            width: 110px;
+            height: 80%;
+        }
+        .btn span:first-child{
+            display: inline-block;
+            width: 40%;
+            height: 100%;
+            line-height: 30px;
+            text-align: right;
+        }
+        .btn span:first-child a{
+            display: inline-block;
+            background-color: blue;
+            width: 50%;
+            text-align: center;
+            height: 100%;
+            line-height: 30px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+        }
+        .btn span:last-child{
+            border: none;
+            text-align: left;
+            display: inline-block;
+            width: 40%;
+            height: 100%;
+            line-height: 30px;
+        }
+        .btn span:last-child a{
+            display: inline-block;
+            background-color: blue;
+            color: white;
+            width: 50%;
+            text-align: center;
+            height: 100%;
+            line-height: 30px;
+            text-decoration: none;
+        }
+        .btn span a:hover{
+              color: slategray;
+        }

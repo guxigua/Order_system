@@ -1,0 +1,195 @@
+@charset "UTF-8";
+     *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        .header{
+            width:60%;
+            height:100px;
+            overflow:hidden;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        .header .left{
+            float:left;
+            width:30%;
+            height:100px;
+            border:1px solid silver;
+            border-right:none;
+        }
+        .header .left p{
+            width:100%;
+            height:100%;
+            line-height:100px;
+            text-align: center;
+        }
+        .header .center{
+            float:left;
+            width:40%;
+            height:100px;
+            border:1px solid silver;
+            border-right:none;
+        }
+        .header .center h1{
+           width:100%;
+            height:100%;
+            line-height:100px;
+            text-align: center;
+        }
+        .header .right{
+            float:left;
+            width:30%;
+            height:100px;
+            border:1px solid silver;
+            padding-top: 30px;
+            padding-left: 10px;
+        }
+        .header .right a{
+        display: block;
+        width: 80px;
+        height: 16px;
+        font-size: 14px;
+        text-decoration: none;
+        color: red;
+        }
+        .header .right a:hover{
+            color: blue;
+        }
+        .nav{
+            width: 60%;
+            border: 1px solid silver;
+            border-top: none;
+            margin: 0 auto;
+            display: flex;
+        }
+        .nav a{
+            display: inline-block;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+        }
+        .nav a:hover{
+            color: red;
+        }
+        .footer{
+            width: 60%;
+            height: 40px;
+            margin: 0 auto;
+            border: 1px solid silver;
+            border-top: none;
+            overflow: hidden;
+        }
+         .footer{
+            padding-top: 8px;
+        }
+        .footer p{
+          width: 70%;
+          text-align: center;
+          height: 16px;
+          line-height: 16px;
+          font-size: 14px;
+          margin: 0 auto;
+        }
+        .body{
+            width: 60%;
+            margin: 0 auto;
+            border: 1px solid silver;
+            border-top: none;
+        }
+        .top{
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            border-bottom: 1px solid silver;
+        }
+        .top span{
+            display: inline-block;
+            width: 15%;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+        }
+        .top .one1{
+            font-size: 20px;
+        }
+        .top .four4{
+            color: red;
+        }
+        .user{
+            width: 100%;
+            text-align: center;
+            border: 1px solid silver;
+        }
+        .user p{
+           width: 70%;
+           height: 25px;
+           border: 1px solid silver;
+           margin: 0 auto;
+        }
+        .user p span{
+            display: inline-block;
+            width: 50%;
+            height: 20px;
+            line-height: 25px;
+        }
+        .user p span:first-child{
+            text-align: right;
+           border-right: 1px solid silver;
+        }
+        .user p span:last-child{
+            text-align: left;
+        }
+        .car p{
+            width: 70%;
+            height: 25px;
+            line-height: 25px;
+            margin: 0 auto;
+            border: 1px solid silver;
+        }
+        .car p:last-child{
+        width: 100%;
+        border: 1px solid silver;
+        }
+        .car p:first-child{
+            text-align: center;
+        }
+        .car p span{
+            display: inline-block;
+            width: 30%;
+            height: 100%;
+            line-height: 25px;
+            border-right:1px solid silver;
+            text-align: center;
+        }
+        .car p span:first-child,
+        .car p span:last-child{
+            display: inline-block;
+            width: 20%;
+            height: 100%;
+            line-height: 25px;
+        }
+        .car p span:last-child{
+            border: none;
+        }
+        .car p:last-child{
+            text-align: center;
+        }
+             .bottom{
+            text-align: right;
+            background-color: pink;
+        }
+        .bottom a{
+            text-decoration: none;
+            color: red;
+        }
+        .bottom a:last-child{
+            margin-left: 40px;
+            margin-right: 10px;
+        }
+        .bottom a:hover{
+            color: white;
+        }
